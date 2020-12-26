@@ -1,12 +1,12 @@
-### Unit Spawn
+# Unit Spawn
 ![Build](https://github.com/Volas171/UnitSpawn/workflows/Build/badge.svg)
-# Use
+## Use
 
 Template: `/spawn unit count team`
 
 Ex: `/spawn mono 10 sharded`
 
-# Installation
+## Installation
 ./gradlew jar 
 
 # Precompiled binaries 
