@@ -12,6 +12,5 @@ Ex: `/spawn mono 10 sharded`
 ## Precompiled binaries 
 
 Check actions tab for .jar or release tab for src **(lmao)**
-
 # Demo
-https://cdn.discordapp.com/attachments/786826951088275516/791480897190625310/2020-12-23_20-40-52.mp4
+![demo](https://user-images.githubusercontent.com/60143910/103160430-0986c280-47a3-11eb-9a9b-6587af6a7e20.gif)
