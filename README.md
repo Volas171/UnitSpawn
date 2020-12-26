@@ -13,8 +13,3 @@ Ex: `/spawn mono 10 sharded`
 
 Check actions tab for .jar or release tab for src **(lmao)**
 
-# Demo
-<video width="360" height="360" controls>
-<source src="https://raw.githubusercontent.com/Volas171/UnitSpawn/main/demo.mp4" type="video/mp4">
- Your browser does not support the video tag.
-</video>
