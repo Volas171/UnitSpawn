@@ -12,4 +12,5 @@ Ex: `/spawn mono 10 sharded`
 ## Precompiled binaries 
 
 Check actions tab for .jar or release tab for src **(lmao)**
-
+# Demo
+https://raw.githubusercontent.com/Volas171/UnitSpawn/main/demo.mp4
