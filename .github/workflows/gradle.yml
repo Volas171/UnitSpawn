@@ -20,7 +20,7 @@ jobs:
     - name: Upload built jar file
       uses: actions/upload-artifact@v2
       with:
-        name: alexserverplugin.jar
+        name: UnitSpawn.jar
         path: build/libs/UnitSpawn.jar
 
     - name: Create Release
@@ -30,8 +30,8 @@ jobs:
       env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          tag_name: 1.0
-          release_name: Release 1.0
+          tag_name: ${{ github.run_number }}
+          release_name: Release ${{ github.run_number }}
           body: |
             UnitSpawn plugin Build ${{ github.run_number }}
           draft: false
