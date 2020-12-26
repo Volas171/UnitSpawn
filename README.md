@@ -11,5 +11,5 @@ Ex: `/spawn mono 10 sharded`
 
 ## Precompiled binaries 
 
-check actions tab or release tab
+Check actions tab for .jar or release tab for src **(lmao)**
 
