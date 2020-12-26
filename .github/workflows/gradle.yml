@@ -31,8 +31,26 @@ jobs:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           tag_name: ${{ github.run_number }}
-          release_name: Release ${{ github.run_number }}
+          release_name: Release 1.0
           body: |
             UnitSpawn plugin Build ${{ github.run_number }}
           draft: false
           prerelease: false
+
+
+    - name: Download ${{ matrix.assetName }}
+      uses: actions/download-artifact@v2
+      id: download
+      with:
+        name: ${{ matrix.assetName }}
+
+    - name: Upload ${{ matrix.assetName }} to Release
+      id: upload-desktop-asset
+      uses: actions/upload-release-asset@v1
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+          upload_url: ${{ needs.gradleBuild.outputs.url }}
+          asset_path: UnitSpawn.jar
+          asset_name: ${{ matrix.assetName }}
+          asset_content_type: application/zip
