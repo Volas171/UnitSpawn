@@ -22,17 +22,3 @@ jobs:
       with:
         name: UnitSpawn(zipped).jar
         path: build/libs/UnitSpawn.jar
-
-    - name: Create Release
-      if: strategy.job-index == 0
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-          tag_name: ${{ github.run_number }}
-          release_name: Release 1.0
-          body: |
-            UnitSpawn plugin Build ${{ github.run_number }}
-          draft: false
-          prerelease: false
