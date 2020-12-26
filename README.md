@@ -13,4 +13,4 @@ Ex: `/spawn mono 10 sharded`
 
 Check actions tab for .jar or release tab for src **(lmao)**
 # Demo
-soon 
+![demo](https://user-images.githubusercontent.com/60143910/103160430-0986c280-47a3-11eb-9a9b-6587af6a7e20.gif)
