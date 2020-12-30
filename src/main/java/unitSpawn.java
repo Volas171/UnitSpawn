@@ -55,7 +55,7 @@ public class unitSpawn extends Mod {
                 for (int i = 0; count > i; i++) {
                     Unit tunit = sunit.spawn(tteam, player.x, player.y);
                 }
-                player.sendMessage("[green]You are spawning" + " " +"[accent]"+count + " " +"[accent]"+sunit + " " + "[green]for" + " " +"[accent]"+tteam + " " + "[green]team");
+                player.sendMessage("[royal]You are spawning" + " " +"[accent]"+count + " " +"[accent]"+sunit + " " + "[green]for" + " " +"[accent]"+tteam + " " + "[royal]team");
             } else {
                 player.sendMessage("[red]Units: [accent]dagger, mace, fortress, scepter, reign, nova, pulsar, quasar, vela, corvus, crawler, atrax, spiroct, arkyid, toxopid, mono, poly, mega, quad, oct, flare, eclipse, horizon, zenith, antumbra, risso, minke, bryde, sei, omura");
             }
