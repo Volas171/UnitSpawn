@@ -1,5 +1,4 @@
 # Unit Spawn
-# DEPRECATED, Refer to  https://mindustrygame.github.io/wiki/modding/7-migrationv7/ if you wanna continue it
 ![Build](https://github.com/Volas171/UnitSpawn/workflows/Build/badge.svg)
 ## Use
 
